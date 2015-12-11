@@ -1,0 +1,495 @@
+
+.printDiv
+{
+width:700px;  
+margin:0 auto; 
+background-color:#FFFFFF;
+}
+
+
+body {
+
+	font-family: 'Arial', sans-serif;
+	font-size: 15px;
+	line-height:20px;
+	color: #000;
+	
+}
+
+
+th { 
+text-align:center; 
+font-weight:bold; 
+border: solid 1px #000;
+background-color: rgb(255, 99, 71);
+line-height:30px;
+}
+
+/* Header */
+.head1
+{
+background: #45484d; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ1NDg0ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #45484d 0%,#000000 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #45484d 0%,#000000 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+width:100%;
+text-align:right;
+}
+.cname
+{
+float:left;
+margin-left:10px;
+line-height:30px;
+color:#FFF;
+font-weight:bold;
+}
+.logout
+{
+color:#FFF;
+margin-right:10px;
+text-decoration:none;
+font-weight:bold;
+line-height:30px;
+}
+
+.header-wrapper 
+{
+	width:100%;
+	background-color:transparent;
+	min-height:50px;
+	border-bottom:solid 1px #000;
+	background: #FF6347;
+}
+
+.header {
+	width: 1000px;
+	margin: 0 auto;
+}
+h1
+{
+font-size: 20px;
+font-weight:bold;
+line-height:45px;
+color:#000000;
+}
+h2
+{
+font-size:16px;
+font-weight:bold;
+line-height:50px;
+text-align:left;
+}
+
+.menu
+{
+width:100%;
+border-collapse:collapse;
+}
+	
+	nav ul ul {
+	display: none;
+	}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+	
+	nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+	nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 10px 20px;
+		color: #757575; text-decoration: none;
+	}
+	nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+		text-align:left;
+	}
+		nav ul ul li a {
+			padding: 5px 20px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+			
+			nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+		
+		
+.mid-wrapper
+{
+	width:100%;
+	background-color:#eeeeee;	
+
+}
+.mid
+ {
+	width: 1000px;
+	min-height:500px;
+	margin: 0 auto;
+	background-color:#FFFFFF;
+}
+
+.pagehead{ text-align: left; border-bottom:dashed 1px #000; }
+.pagehead a{ font-weight:bold; text-decoration:none; margin-left:10px; line-height:50px; color:#000000; }
+
+.clTbPayBy td { padding-right:10px; padding-bottom:5px; }
+.tblTot td { padding-right:10px; padding-bottom:5px; }
+.tblDelivery td { padding-right:10px; padding-bottom:5px;  }
+
+.footer { line-height:100px;  }
+.footer a { color: #999999;  }
+
+#idTbDocketList
+{
+width:100%;
+}
+
+
+/* ******************* Search Docket ********************** */
+
+.clTbSearchDoc
+{
+margin:0 auto;
+text-align:left; 
+}
+.clTbSearchDoc
+{
+padding:5px;
+font-weight:bold;
+}
+.clTbSearchDoc td
+{
+padding:5px;
+}
+.clTbSearchDoc input
+{
+width:200px;
+}
+.clTbSearchDoc select
+{
+width:205px;
+}
+.clLnkBtnSearchDocket
+{
+background-color:#999999;
+border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px; font-weight:normal; padding: 5px 5px 5px 5px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3); color: #FFFFFF;
+ background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+ background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+.clLnkBtnSearchDocket:hover
+{
+border:1px solid #1c5675;
+ background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+ background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+ background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+ background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+ background-image: -o-linear-gradient(top, #26759e, #133d5b);
+ background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+.clTblListBills {
+margin: 0 auto;
+}
+
+.clTblListBills td {
+border:solid 1px #000;
+line-height:20px;
+text-align:left;
+padding-left:3px;
+padding-right:3px;
+}
+
+/* ******************* End Search Docket ****************** */
+
+/* ******************* Search Bills ********************** */
+
+.clTbSearchBills {
+margin:0 auto;
+text-align:left;
+font-weight:bold;
+}
+
+.clTbSearchBills td {
+padding:5px;
+}
+
+.clTbSearchBills input
+{
+width:200px;
+}
+.clTbSearchBills select
+{
+width:205px;
+}
+
+.clLnkBtnSearchBills
+{
+background-color:#999999;
+border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px; font-weight:normal; padding: 5px 5px 5px 5px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3); color: #FFFFFF;
+ background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+ background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+.clLnkBtnSearchBills:hover
+{
+border:1px solid #1c5675;
+ background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+ background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+ background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+ background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+ background-image: -o-linear-gradient(top, #26759e, #133d5b);
+ background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+{
+background-color:#999999;
+border:1px solid #25729a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px; font-weight:normal; padding: 5px 5px 5px 5px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3); color: #FFFFFF;
+ background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+ background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+ background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+.clLnkBtnSearchBills:hover
+{
+border:1px solid #1c5675;
+ background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+ background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+ background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+ background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+ background-image: -o-linear-gradient(top, #26759e, #133d5b);
+ background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+/* ******************* End Search Bills ****************** */
+
+
+/* ******************* Undelivered Docket ****************** */
+
+.clTbUndelivered {
+margin:0 auto;
+}
+.clTbUndelivered td {
+text-align:left;
+padding-left:5px;
+padding-right:5px;
+border:solid 1px #999999;
+}
+
+/* ******************* End Undelivered Docket ****************** */
+
+
+
+
+
+/* ******************* Monthly Bill Design ****************** */
+
+
+
+
+#idTblBillFormat {
+font-size:13px;
+line-height:15px;
+}
+.clBillHead
+{
+height:130px;
+}
+.clDivCompanyName {
+line-height:45px;
+font-size:30px;
+font-weight:bold;
+color: 	#FF4500;
+}
+.clDivCompanyAl1, .clDivCompanyAl2, .clDivCompanyStateCityPin {
+line-height:16px;
+}
+.clTdPayByDetail
+{
+height:110px;
+text-align:left;
+}
+.clDivPayByDetails
+{
+width:500px;
+text-align:left;
+padding-left:5px;
+float:left;
+}
+.clDivPayByName {
+font-weight:bold; 
+}
+.clDivPayByBillDtandBillNo
+{
+float:left;
+font-weight:bold; 
+line-height:20px;
+
+}
+.clTrPartihead
+{
+font-weight:bold;
+}
+
+
+.idDivParentAddress
+{
+width:100%;
+line-height:16px;
+}
+
+
+
+			/*Bill Format Style*/
+#idTblBillFormat td
+{
+border:solid 1px #000000;
+
+}
+
+#idTblBillFormat
+{
+width:700px;
+border:solid 1px #000000;
+margin:0 auto;
+background-color:#FFFFFF;
+}
+#idTdParentName
+{
+font-size:20px;
+font-weight:bold;
+line-height:50px;
+color: 	#FF4500;
+}
+.clDivPayby
+{
+width:450px; min-height:100px; 
+text-align:left;
+padding-left:5px;
+float:left;
+}
+.clDivBillNum
+{
+ min-height:100px; 
+text-align:left;
+
+}
+.cltdPartiHead
+{
+font-weight:bold;
+
+}
+
+.clTblBillFormat
+{
+font-size:13px;
+line-height:15px;
+width:700px;
+border:solid 1px #000000;
+margin:0 auto;
+background-color:#FFFFFF;
+margin-top:5px;
+}
+.clTblBillFormat td
+{
+border:solid 1px #000000;
+}
+
+		/*END Bill Format Style*/
+
+
+/* ******************* Client Master ****************** */
+
+.clTblClientMaster td {
+ padding-right:10px; padding-bottom:5px;
+ line-height:20px;
+}
+
+/* ******************* List Client ****************** */
+.clTblListClients {
+margin:0 auto;
+}
+.clTblListClients td {
+text-align:left;
+padding-left:5px;
+padding-right:5px;
+border:solid 1px #999999;
+}
+
+/* ******************* Accounts Transcation ****************** */
+
+.clAccounts_Transcation {
+ margin: 0 auto; 
+
+ text-align:left;
+ }
+ .clAccounts_Transcation td {
+  padding-right:10px; 
+ padding-bottom:5px;
+ }
+ .clAccounts_Transcation td input {
+ width:200px;
+ }
+ 
+#idTbListAcTran td {
+padding-left :2px;
+padding-right :2px;
+}
+ 
+ /* ******************* Add Rate ****************** */
+ 
+ .clTbAddRate td {
+ padding-right:10px; 
+ padding-bottom:5px;
+ }
+  
+ .clTbAddRate td input {
+ width:500px;
+ }
